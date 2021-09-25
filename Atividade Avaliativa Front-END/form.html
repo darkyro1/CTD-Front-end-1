@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+        <header class="header">
+          <nav class="menu">
+            <a class="logo" href="https://vitoria.es.gov.br">
+              <img src="https://m.vitoria.es.gov.br/img/logo.png" alt="" />
+            </a>
+            <ul>
+              <li>
+                <a href="index.html">PAGINA INICIAL</a>
+              </li>
+              <li>
+                <a href="form.html">CADASTRO</a>
+              </li>
+              <li>
+                <a href="#">EMPREENDEDORISMO</a>
+              </li>
+              <li>
+                <a href="#">PREFEITURA</a>
+              </li>
+              <li>
+                <a href="#">TURISMO</a>
+              </li>
+              <li>
+                <a href="#">CORONA VIRUS</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+    <main class="trab">
+    <section class="lorem">
+       
+        <div class="topo">
+            <h1 class="Hs" style="text-align: center;">Saiba tudo sobre a capital Capixaba.</h1>
+        </div>
+        <form action="" method="POST">
+            <fieldset class="fieldset"> 
+                <p>
+            <h2 style="text-align: center;">Cadastre-se</h2>
+                </p>
+            <div class="paragrafos">
+                <p>
+                    <input class="pointer" type="text" name="nome" id="nome"  maxlength="100" required size="30" autocomplete="off">
+                    <label class="labele" for="nome">Nome Completo</label> Máximo de <strong>100</strong> caracteres
+                </p>
+            </div>
+            <div class="paragrafos">
+                <p>
+                    <input class="pointer" type="email" id="email" name="email" required size="30" autocomplete="off">
+                    <label class="labele" for="email">Email</label>
+                </p>
+            </div>
+            <div class="paragrafos">
+                <p>
+                    <input class="pointer" type="text" id="telefone" name="telefone" pattern="[0-9]{11}" required size="30" autocomplete="off">
+                    <label class="labele" for="telefone">Celular</label> Preencher apenas <strong>numeros</strong> ddd e numero de celular com o 9
+                </p>
+            </div>
+            <div class="paragrafos">
+                <p>
+                    
+                    <input class="pointer-nascimento" type="date" id="aniversario" name="aniversario" required>
+                    <label class="nascimento" for="aniversario">Data de Nascimento</label>
+                </p>
+            </div>
+            <div class="paragrafos">
+                <p>
+                    <label for="idade">Maior de idade?</label>
+                    <select class="pointer" name="idade" id="idade" required>
+                        <option value="" selected disabled>Selecionar</option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </p>
+            </div>
+            <div  class="paragrafos">
+                <p>
+                    <label for="interesses">Ponto de interesse em Brasilia:</label>
+                    <select class="pointer" name="interesses" id="interesses" required>
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="Parkshopping">Parkshopping</option>
+                        <option value="Teatro de Brasilia">Teatro de Brasilia</option>
+                        <option value="Pier 21">Pier 21</option>
+                        <option value="Pontão Lago Sul">Pontão Lago Sul</option>
+                    </select>
+                </p>
+            </div>
+            
+            <div class="inter">
+                    <p>Interesses em Brasilia:</p>
+                    <input type="checkbox" id="turista" name="turista" value="turista">
+                    <label class="opti" for="turista">Turista</label><br></br>
+    
+                    <input type="checkbox" id="trabalho" name="trabalho" value="trabalho">
+                    <label class="opti" for="trabalho">Trabalhar</label><br></br>
+    
+                    <input type="checkbox" id="estudar" name="estudar" value="estudar">
+                    <label class="opti" for="estudar">Estudar</label><br></br>
+    
+                    <input type="checkbox" id="residente" name="residente" value="residente">
+                    <label class="opti" for="residente">Residente</label><br></br>
+              
+            </div>
+            <div class="divbotoes">
+                <button type="submit" class="botoes pointer">Concluir</button>
+                <button type="reset" class="botoes pointer">Limpar Formulario</button>
+            </div>
+            </fieldset>
+
+        </form>
+    </section>
+</main>
+    <footer class="rodape">
+        <nav>
+          <div class="copy">
+            Digital House. Todos os Direitos Reservados. (Heberth Fonseca - Turma
+            5 NT)
+          </div>
+          <a id="youtube" href="https://www.youtube.com/embed/hLrNckEmcAc">
+            <img
+              src="https://trucao.com.br/wp-content/uploads/2018/07/youtube-logo.png"
+              width="40"
+            />
+          </a>
+          <a
+            id="instagram"
+            href="https://www.instagram.com/fullcolorfotografias/"
+          >
+            <img
+              src="https://trucao.com.br/wp-content/uploads/2018/07/instagram-logo.png"
+              width="40"
+            />
+          </a>
+        </nav>
+      </footer>
+</body>
+</html>

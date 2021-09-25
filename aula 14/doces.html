@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário empresa</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+
+<body>
+    <form action="newsletter">
+        <div>
+            <input type="text" name="nomeCompleto" placeholder="Nome completo">
+        </div>
+        <div>
+            <input type="text" name="email" placeholder="Insira seu melhor email">
+        </div>
+        <div>
+            <input type="number" name="idade" placeholder="Idade">
+        </div>
+        <div>
+            <select name="modalidade" id="modalidades">
+      <option value="karate">Chocolate</option>
+      <option value="hapkido">Biscoito</option>
+      <option value="jiujitsu">Mentira</option>
+      <option value="kungfu">Pão</option>
+      <option value="sanda">Pão de Queijo</option>
+    </select>
+        </div>
+        <div>
+            <label for="opiniao">Além das modalidades oferecidas, qual outra gostaria de praticar?</label>
+        </div>
+        <div>
+            <textarea name="textOpiniao" id="opiniao" cols="30" rows="10" placeholder="Insira a modalidade aqui:"></textarea>
+        </div>
+        <fieldset>
+            <div class="modalidades">
+                <input type="radio" name="modalidades" id="pouco" checked>
+                <label for="pouco">1-2 modalidades</label>
+                <input type="radio" name="modalidades" id="pouco2">
+                <label for="pouco2">3-4 modalidades</label>
+                <input type="radio" name="modalidades" id="pouco3">
+                <label for="pouco3">4+ modalidades</label>
+            </div>
+            <fieldset>
+                <legend>Dias da semana</legend>
+                <input type="checkbox" name="semana" id="segunda" checked>
+                <label for="segunda">Segunda-feira</label>
+                <input type="checkbox" name="semana" id="terca">
+                <label for="terca">Terça-feira</label>
+                <input type="checkbox" name="semana" id="quarta">
+                <label for="quarta">Quarta-feira</label>
+                <input type="checkbox" name="semana" id="quinta">
+                <label for="quinta">Quinta-feira</label>
+                <input type="checkbox" name="semana" id="sexta">
+                <label for="sexta">Sexta-feira</label>
+                <input type="checkbox" name="semana" id="sabado">
+                <label for="sabado">Sábado</label>
+                <input type="checkbox" name="semana" id="domingo" disabled>
+                <label for="domingo">Domingo</label>
+                <input type="date" name="date" id="date" min="2021-05-10">
+            </fieldset>
+        </fieldset>
+        <div>
+            <input type="reset" value="Limpar" id="reset">
+            <input type="submit" value="Enviar" id="submit">
+        </div>
+    </form>
+
+
+</body>
+
+</html>

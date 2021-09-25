@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    display: flexbox;
+    flex-direction: row;
+}
+
+#reset {
+    background-color: darkslategray;
+    width: 150px;
+    height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: floralwhite;
+    border-radius: 4em;
+    transition: transform 3s;
+}
+
+#reset:hover {
+    background-color: forestgreen;
+    transform: scale(1);
+}
+
+#submit {
+    background-color: darkslategray;
+    width: 150px;
+    height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: floralwhite;
+    border-radius: 4em;
+}

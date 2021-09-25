@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.tit {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    font-size: larger;
+    text-align: center;
+    color: crimson;
+}
+
+.tit:hover {
+    background-color: darkgoldenrod;
+    width: 300px;
+    height: 200px;
+    transition: transform 3s;
+    font-size: x-large;
+}
