@@ -1,0 +1,113 @@
+@import "../css/reset.css";
+
+body {
+  position: relative;
+  background-color: #141414;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+
+.shadow-top {
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+  width: 100vw;
+}
+
+.logo {
+  height: auto;
+  position: absolute;
+  left: 40px;
+  top: 23px;
+  width: 15vh;
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.perfil {
+  position: absolute;
+  top: 80px;
+  margin: auto auto;
+  font-size: 30px;
+  width: 100%;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  text-align: center;
+}
+
+.nome-perfil {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.img-perfil {
+  width: 200px;
+  border-radius: 6px;
+}
+
+.img-perfil + p {
+  color: gray;
+  font-size: 23px;
+}
+
+.img-perfil:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.img-perfil:hover + p {
+  color: white;
+}
+
+.add-perfil {
+  width: 200px;
+  border-radius: 6px;
+}
+
+.add-perfil + p {
+  color: gray;
+  font-size: 23px;
+}
+
+.add-perfil:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: #dcdcdc;
+}
+
+.add-perfil:hover + p {
+  color: white;
+}
+
+.manage-perfis {
+  position: absolute;
+  border: 1px solid gray;
+  width: 230px;
+  height: 50px;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  font-size: 19px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+}
+
+.manage-perfis:hover {
+  color: white;
+  border: 1px solid white;
+}

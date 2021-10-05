@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +36,7 @@
           </nav>
         </header>
     <main class="trab">
-    <section class="lorem">
+    <section class="lorem formulario">
        
         <div class="topo">
             <h1 class="Hs" style="text-align: center;">Saiba tudo sobre a capital Capixaba.</h1>
@@ -44,12 +44,12 @@
         <form action="" method="POST">
             <fieldset class="fieldset"> 
                 <p>
-            <h2 style="text-align: center;">Cadastre-se</h2>
+            <h2 class="sign-up" >Cadastre-se</h2>
                 </p>
             <div class="paragrafos">
                 <p>
-                    <input class="pointer" type="text" name="nome" id="nome"  maxlength="100" required size="30" autocomplete="off">
-                    <label class="labele" for="nome">Nome Completo</label> Máximo de <strong>100</strong> caracteres
+                    <input class="pointer js-input" type="text" name="nome" id="nome"  maxlength="100" required size="30" autocomplete="off">
+                    <label class="labele js-input" for="nome">Nome Completo</label> Máximo de <strong>100</strong> caracteres
                 </p>
             </div>
             <div class="paragrafos">
@@ -83,19 +83,18 @@
             </div>
             <div  class="paragrafos">
                 <p>
-                    <label for="interesses">Ponto de interesse em Brasilia:</label>
+                    <label for="interesses">Ponto de interesse em Vitória:</label>
                     <select class="pointer" name="interesses" id="interesses" required>
                         <option value="" selected disabled>Selecione</option>
-                        <option value="Parkshopping">Parkshopping</option>
-                        <option value="Teatro de Brasilia">Teatro de Brasilia</option>
-                        <option value="Pier 21">Pier 21</option>
-                        <option value="Pontão Lago Sul">Pontão Lago Sul</option>
+                        <option value="Pedra da Cebola">Pedra da Cebola</option>
+                        <option value="Praia">Praia</option>
+                        <option value="Convento da Penha">Convento da Penha</option>
+                        <option value="Estatua de Yemanja">Estatua de Yemanjá</option>
                     </select>
                 </p>
             </div>
-            
-            <div class="inter">
-                    <p>Interesses em Brasilia:</p>
+            <p style="text-align:center">Interesses em Vitória:</p>
+            <div class="inter">                    
                     <input type="checkbox" id="turista" name="turista" value="turista">
                     <label class="opti" for="turista">Turista</label><br></br>
     
@@ -107,7 +106,6 @@
     
                     <input type="checkbox" id="residente" name="residente" value="residente">
                     <label class="opti" for="residente">Residente</label><br></br>
-              
             </div>
             <div class="divbotoes">
                 <button type="submit" class="botoes pointer">Concluir</button>
@@ -141,5 +139,6 @@
           </a>
         </nav>
       </footer>
+      <script src="./js/script.js"></script>
 </body>
 </html>

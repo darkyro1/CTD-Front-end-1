@@ -1,0 +1,177 @@
+@import "../css/reset.css";
+
+body {
+  background-image: url("../img/background-login.jpg");
+  width: 100vw;
+  height: auto;
+  position: relative;
+}
+
+.shadow-top {
+  position: fixed;
+  width: 100vw;
+  top: -40px;
+  z-index: -1;
+}
+
+.shadow-bottom {
+  width: 100vw;
+  position: fixed;
+  bottom: -8px;
+}
+
+.topo {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.entrar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 90px;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+  font-size: 12pt;
+  border-radius: 4px;
+  width: 75px;
+  height: 35px;
+}
+
+.logo {
+  height: auto;
+  width: 20vh;
+  transition: transform 0.2s;
+  left: 0px;
+  top: 0px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.sign {
+  position: absolute;
+  color: white;
+  top: 50px;
+  left: 60px;
+  font-size: 25pt;
+}
+
+.div-form {
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-nome {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  top: 50px;
+  margin-top: 40px;
+  padding: 30px 30px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8%;
+  transition: transform 0.2s;
+}
+
+.register-email {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  top: 50px;
+  margin-top: 120px;
+  padding: 30px 30px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8%;
+  transition: transform 0.2s;
+}
+
+.register-senha {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  top: 50px;
+  margin-top: 200px;
+  padding: 30px 30px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8%;
+  transition: transform 0.2s;
+}
+
+label {
+  color: white;
+}
+
+.dados {
+  border: solid 1px;
+  border-color: black;
+  width: 320px;
+  height: 45px;
+  border-radius: 4px;
+  font-size: 19px;
+  padding: 10px 10px 10px;
+  background-color: #333;
+  color: white;
+}
+
+.submit {
+  position: absolute;
+  top: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 90px;
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15pt;
+  border-radius: 4px;
+  width: 320px;
+  height: 45px;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+}
+
+.reset {
+  position: absolute;
+  top: 470px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 90px;
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15pt;
+  border-radius: 4px;
+  width: 320px;
+  height: 45px;
+}
+
+.reset:hover {
+  transform: scale(1.1);
+}
